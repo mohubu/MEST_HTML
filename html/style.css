@@ -1,0 +1,112 @@
+/* Reset some default browser styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: right;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Hero section styles */
+#hero {
+    background-color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+#hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+#hero img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.3s;
+}
+
+#hero img:hover {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+
+/* Section styles */
+section {
+    background-color: #fff;
+    padding: 40px 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+section h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+section p {
+    font-size: 18px;
+    color: #666;
+}
+
+/* Featured project section styles */
+#featured-project {
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+#featured-project h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#featured-project p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
